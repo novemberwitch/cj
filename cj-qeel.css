@@ -236,6 +236,8 @@ grid-row: 3 / 4;
   grid-row: 5 / 7;
   padding: 10px;
   background: var(--neutral);
+  overflow: auto;
+  text-align: justify;
 }
 
 /* Dernier inscrit */
