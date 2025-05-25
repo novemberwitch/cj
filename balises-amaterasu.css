@@ -63,7 +63,14 @@ r1, rr1, r2, rr2, r3, rr3, r4, rr4, r5, rr5, r6, rr6 {font-family: var(--font-ti
 
 r1, r2, r3, r4, r5, r6 {text-transform:uppercase;}
 
-.post_message .fa-solid i, .post_message .fas i, #preview .fa-solid i,  #preview .fas i {color: var(--stay-white);}
+.post_message .fa-solid i, .post_message .fas i, #preview .fa-solid i,  #preview .fas i, .iconrasu i {color: var(--stay-white);}
+
+wf {color:var(--wf);}
+dc {color:var(--dc);}
+sd {color:var(--sd);}
+cs {color:var(--cs);}
+
+s1 {text-transform: uppercase; font-weight: 600; transition: 0.5s; letter-spacing: 1px; font-size: var(--mini-size);color: var(--stay-white);}
 
 t2 { 
     transition: 0.5s;
