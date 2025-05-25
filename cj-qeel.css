@@ -89,10 +89,10 @@ vl {-webkit-background-clip: text !important;-webkit-text-fill-color: transparen
     justify-content: space-between;
 }
 
-.qeel-wf:hover { background: var(--grad-wf);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
-.qeel-dc:hover { background: var(--grad-dc);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
-.qeel-sd:hover { background: var(--grad-sd);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
-.qeel-cs:hover { background: var(--grad-cs);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
+.qeel-wf { background: var(--grad-wf);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
+.qeel-dc { background: var(--grad-dc);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
+.qeel-sd { background: var(--grad-sd);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
+.qeel-cs { background: var(--grad-cs);  color: var(--white); transition: background 0.4s ease, color 0.4s ease;}
 
 .qeel-img {
   border-radius: var(--radius-normal);
