@@ -40,13 +40,14 @@ in:after {
 an {
   font-weight:bold;
   text-transform:uppercase;
-  background:var(--deg);
+background: var(--gradient-one);
   color:var(--neutral);
   font-weight:500;
-  padding:1px 5px 1px 5px;
-  font-family:var(--font4);
+  padding:2px 10px;
+  border-radius: var(--radius-normal);
   text-transform:uppercase;
-  letter-spacing:1px;}
+  letter-spacing:1px;
+ font-size: var(--mini-size);}
 
 .texte {
   margin-top:5px;
