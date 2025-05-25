@@ -276,7 +276,8 @@ text-align: center;
 /*Connectés en ce moment*/
 #online_users {
   height: 95px;
-  overflow: auto;
+    overflow-y: auto;
+    text-align: justify;
 }
 
 /*ne pas supprimer*/
