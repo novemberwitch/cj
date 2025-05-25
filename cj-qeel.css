@@ -128,18 +128,6 @@ border-radius: var(--radius-normal);
     gap: 10px;
 }
 
-.iconrasu {
-    width: 30px;
-    height: 25px;
-    background: var(--gradient-one);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: var(--little-size);
-}
-
 .qeel-mini-bloc {
     background: var(--neutral);
     width: 100%;
