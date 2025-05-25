@@ -9,6 +9,7 @@
 .prez {width: fit-content;flex-wrap: wrap;width: 840px;padding: 20px;background: var(--transparent-three);border-radius: var(--radius-large);}
 .fiche-fond {width:100%;background: var(--transparent-four);border-radius: var(--radius-medium);padding: 10px;  text-align:justify;}
 .fiche-titre { display: grid;border-radius: var(--radius-medium);grid-template-columns: 170px 1fr;grid-template-rows: 1fr;margin-bottom: 20px;width: auto;overflow: hidden;gap:20px;}
+.fiche-simple-titre {width:100%;background: var(--transparent-four);border-radius: var(--radius-medium);padding: 10px;  text-align:justify;display:flex;}
 
 .fiche-titre div {
     display: flex;
@@ -134,7 +135,7 @@ font-size: var(--medium-size);
     border-radius: var(--radius-mini);
 }
 
-.fiche-bloc .fa, .fiche-bloc .fa-brands, .fiche-bloc .fa-classic, .fiche-bloc .fa-regular, .fiche-bloc .fa-sharp, .fiche-bloc .fa-solid, .fiche-bloc .fab, .fiche-bloc .far, .fiche-bloc .fas, .fiche-st .fa-solid {
+.fiche-bloc .fa, .fiche-bloc .fa-brands, .fiche-bloc .fa-classic, .fiche-bloc .fa-regular, .fiche-bloc .fa-sharp, .fiche-bloc .fa-solid, .fiche-bloc .fab, .fiche-bloc .far, .fiche-bloc .fas, .fiche-st .fa-solid, .fiche-simple-titre .fa-solid {
     line-height: inherit!important;
     background: var(--neutralDark);
     width: 25px;
@@ -145,7 +146,7 @@ font-size: var(--medium-size);
     border-radius: var(--radius-mini);
 }
 
-.fiche-st hr {
+.fiche-st hr, .fiche-simple-titre hr {
     /*width: 30%;*/
   flex-grow: 1;
     border: none;
@@ -153,6 +154,8 @@ font-size: var(--medium-size);
     background: linear-gradient(45deg, transparent, var(--two), var(--three), var(--two));
     height: 1px;
 }
+
+.fiche-simple-titre hr {    background: linear-gradient(45deg, transparent, var(--two), var(--one));}
 
 .fiche-cadres {
     display: grid;
