@@ -33,7 +33,7 @@ i1, i2, i3, i4, i5, i6, i {font-style: italic;}
 
 .post_message i, #preview i {color:var(--two);}
 
-bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8 {padding: 2px 6px; color: var(--stay-white); border-radius: var(--radius--normal); font-weight: 700; text-transform: uppercase; font-size: var(--mini-size); letter-spacing: 0.5px;}
+bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8 {padding: 2px 8px; color: var(--stay-white); border-radius: var(--radius-normal); font-weight: 700; text-transform: uppercase; font-size: var(--mini-size); letter-spacing: 0.5px;}
 
 bg1 {background: var(--one);}
 
@@ -59,6 +59,28 @@ bg11 {background: var(--gradient-three); color: var(--stay-black);}
 
 w1, w2, w3, w4, w5, w6 {font-size: var(--mini-size); text-transform: uppercase; font-weight: 700; letter-spacing: 0.5px;}
 
-r1, rr1, r2, rr2, r3, rr3, r4, rr4, r5, rr5, r6, rr6 {font-family: var(--font-title); font-size: var(--normal-size);line-height: 20px; font-weight: 700;}
+r1, rr1, r2, rr2, r3, rr3, r4, rr4, r5, rr5, r6, rr6 {font-family: var(--font-title); font-size: var(--normal-size);line-height: 20px; font-weight: 700;letter-spacing: 2px;}
 
 r1, r2, r3, r4, r5, r6 {text-transform:uppercase;}
+
+t2 { 
+    transition: 0.5s;
+    font-size: var(--large-size);
+    letter-spacing: 1px;
+    font-family: var(--font-title);
+    font-weight: 600;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+       background: linear-gradient(0.75turn, var(--two), var(--three));
+     text-transform:uppercase;}
+
+t3 { 
+    transition: 0.5s;
+    font-size: var(--normal-size);
+    letter-spacing: 1px;
+    font-family: var(--font-title);
+    font-weight: 600;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+     background: linear-gradient(0.75turn, var(--one), var(--two));
+     text-transform:uppercase;}
