@@ -1,20 +1,4 @@
 /*----- FICHES --------*/
-/*---------------------- ONGLETS --------------------------------*/
-
-.tabs-onglets {overflow:hidden!important;text-align:right;gap: 10px;display: flex;justify-content: flex-end;flex-wrap: wrap;align-items: center;}
-.tabs-onglets2,.tabs-onglets3,.tabs-onglets4,.tabs-onglets5 {overflow:hidden!important;text-align:right;display: flex;justify-content: flex-end;flex-wrap: wrap;align-items: center;}
-a.btn { width: 30px;
-    height: 25px;
-    background: var(--gradient-one);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--stay-white);
-    font-size: var(--little-size);
-    padding:2px 15px; }
-.btn:hover {background-color: var(--neutralDarker);color: var(--stay-white); 
-  animation: sparkle-spin 0.6s ease forwards;}
 
 /*------ PRESENTATIONS ---------*/
 
