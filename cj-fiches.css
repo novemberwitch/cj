@@ -161,7 +161,7 @@ font-size: var(--medium-size);
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 1fr;
-    width:800px;
+    /*width:800px;*/
     margin-top: 20px;
   gap:10px;
 }
