@@ -100,6 +100,7 @@
     padding: 0px 10px;
     border-radius: var(--radius-medium);
     text-align: justify;
+    width: 100%;
 }
 
 .fiche-st {
