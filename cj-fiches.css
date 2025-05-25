@@ -134,7 +134,7 @@ font-size: var(--medium-size);
     border-radius: var(--radius-mini);
 }
 
-.fiche-bloc .fa, .fiche-bloc .fa-brands, .fiche-bloc .fa-classic, .fiche-bloc .fa-regular, .fiche-bloc .fa-sharp, .fiche-bloc .fa-solid, .fiche-bloc .fab, .fiche-bloc .far, .fiche-bloc .fas, .fiche-fond .fa-solid {
+.fiche-bloc .fa, .fiche-bloc .fa-brands, .fiche-bloc .fa-classic, .fiche-bloc .fa-regular, .fiche-bloc .fa-sharp, .fiche-bloc .fa-solid, .fiche-bloc .fab, .fiche-bloc .far, .fiche-bloc .fas, .fiche-st .fa-solid {
     line-height: inherit!important;
     background: var(--neutralDark);
     width: 25px;
