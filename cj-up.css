@@ -65,7 +65,7 @@ grid-template-columns: 1fr 200px 1fr;
   border-radius:var(--radius-normal);
 }
 
-.up-img img {width:200px;object-fit:cover;background-size:100%;border-radius:var(--radius-normal);}
+.up-img img {width:200px;object-fit:cover;background-size:100%;border-radius:var(--radius-normal);opacity:0.8;}
 
 .up-notepad {grid-column: 3 / 4;
   grid-row: 2 / 3;}
