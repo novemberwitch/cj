@@ -284,7 +284,9 @@ overflow:auto;
 
 .fiche-simple-titre hr {    background: linear-gradient(45deg, transparent, var(--two), var(--one));}
 
-.annexe-bloc img {
+.infos-bloc img {width: 170px;}
+
+.annexe-bloc img, .infos-bloc img {
     width: 260px;
     border-radius: var(--radius-medium);
     /* background-size: cover; */
@@ -292,7 +294,7 @@ overflow:auto;
     object-position: center;
 }
 
-.annexe-bloc {
+.annexe-bloc, .infos-bloc {
     width: 100%;
     text-align: justify;
     display: flex;
@@ -303,7 +305,7 @@ overflow:auto;
 
 .annexe-bloc:nth-child(2n) {  flex-direction: row-reverse;}
 
-.annexe-desc {
+.annexe-desc, .infos-desc {
     width: 100%;
     background: var(--neutral);
     border-radius: var(--radius-medium);
