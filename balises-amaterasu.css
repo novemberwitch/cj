@@ -5,7 +5,7 @@
 
 .bold, strong, b1, b2, b3, b4, b5, b6 {font-weight:700;}
 
-b1, c1, s1, i1, w1, r1, rr1, .post_message strong {color:var(--one);}
+b1, c1, s1, i1, w1, r1, rr1, u1, .post_message strong {color:var(--one);}
 
 b2, c2, s2, i2, w2, r2, rr2 {color:var(--two);}
 
@@ -16,6 +16,8 @@ b4, c4, s4, i4, w4, r4, rr4 {color:var(--neutral); background: var(--gradient-on
 b5, c5, s5, i5, w5, r5, rr5 {color: var(--black);}
 
 b6, s6, i6, w6, r6, rr6 {color: var(--textColor);}
+
+u1 {border-bottom: 1.4px solid var(--one);}
 
 u2 {border-bottom: 1.4px solid var(--two);}
 
