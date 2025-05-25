@@ -229,3 +229,51 @@ nonbinary {
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;}
 
+
+
+/* MINI MOODBOARD */
+.mood {
+  display:grid;
+  grid-template-columns:102px 102px 102px;
+  grid-template-rows:102px 102px 102px;
+  grid-gap:7px;
+  justify-content:center;
+  align-content:center;
+  margin-bottom:-5em;}
+
+.pix11 {
+  grid-column:1/2;
+  grid-row:1/2;
+  border:var(--border);}
+.pix12 {
+  grid-column:2/3;
+  grid-row:1/2;
+  border:var(--border);}
+.pix13 {
+  grid-column:3/4;
+  grid-row:1/2;
+  border:var(--border);}
+.pix21 {
+  grid-column:1/2;
+  grid-row:2/3;
+  border:var(--border);}
+.pix22 {
+  grid-column:2/3;
+  grid-row:2/3;
+  border:var(--border);}
+.pix23 {
+  grid-column:3/4;
+  grid-row:2/3;
+  border:var(--border);}
+.pix31 {
+  grid-column:1/2;
+  grid-row:3/4;
+  border:var(--border);}
+.pix32 {
+  grid-column:2/3;
+  grid-row:3/4;
+  border:var(--border);}
+.pix33 {
+  grid-column:3/4;
+  grid-row:3/4;
+  border:var(--border);}
