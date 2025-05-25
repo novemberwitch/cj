@@ -33,7 +33,7 @@ u {text-decoration: none;}
 
 i1, i2, i3, i4, i5, i6, i {font-style: italic;}
 
-.post_message i, #preview i {color:var(--two);}
+/*.post_message i, #preview i {color:var(--two);}*/
 
 bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8, bg9, bg10 {padding: 2px 8px; color: var(--stay-white); border-radius: var(--radius-normal); font-weight: 700; text-transform: uppercase; font-size: var(--mini-size); letter-spacing: 0.5px;}
 
