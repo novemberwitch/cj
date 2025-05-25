@@ -86,3 +86,10 @@ t3 {
     -webkit-text-fill-color: transparent !important;
      background: linear-gradient(0.75turn, var(--one), var(--two));
      text-transform:uppercase;}
+
+
+.post_profile hr, fr {
+    border: 1px solid var(--greytwo);
+    margin: 10px 0px 10px;
+    background: none;
+}
