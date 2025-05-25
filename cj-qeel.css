@@ -226,6 +226,7 @@ grid-row: 3 / 4;
   background: var(--neutral);
   overflow: auto;
   text-align: justify;
+  overflow-x: hidden;
 }
 
 /* Dernier inscrit */
