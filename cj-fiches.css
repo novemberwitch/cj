@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.fiche-titre t1 {
+.fiche-titre t1, .fiche-fond t1 {
     transition: 0.5s;
     font-size: var(--maxi-size);
     line-height:100%;
