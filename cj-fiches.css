@@ -231,6 +231,7 @@ grid-column: 1 / 2;
   grid-column: 2 / 4;
     letter-spacing: 1px;
     text-align: right;
+    padding-right: 20px;
 }
 
 .fiche-img-haute img, .fiche-img-haute {
