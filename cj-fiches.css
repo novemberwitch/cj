@@ -10,6 +10,8 @@
 .fiche-fond {width:100%;background: var(--transparent-four);border-radius: var(--radius-medium);padding: 10px;  text-align:justify;}
 .fiche-titre { display: grid;border-radius: var(--radius-medium);grid-template-columns: 170px 1fr;grid-template-rows: 1fr;margin-bottom: 20px;width: auto;overflow: hidden;gap:20px;}
 .fiche-simple-titre {width:100%;background: var(--transparent-four);border-radius: var(--radius-medium);padding: 10px;  text-align:justify;display:flex;}
+.fiche-bloc {width: 100%;}
+.fiche-credits {display:flex;flex-direction:row-reverse;width:100%;gap:10px;}
 
 .fiche-titre div {
     display: flex;
