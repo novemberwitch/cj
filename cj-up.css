@@ -58,7 +58,8 @@ grid-template-columns: 1fr 200px 1fr;
   grid-row: 2 / 3;
   border-radius: var(--radius-normal);
   text-align: justify;
-  overflow: auto;}
+  overflow: auto;
+  line-height: 1.2;}
 
 .up-img {grid-column: 2 / 3;
   grid-row: 2 / 3;
