@@ -286,9 +286,17 @@ overflow:auto;
 
 .fiche-simple-titre hr {    background: linear-gradient(45deg, transparent, var(--two), var(--one));}
 
-.infos-bloc img {width: 170px;}
+.infos-bloc img {width: 170px!important;}
 
-.annexe-bloc img, .infos-bloc img {
+.annexe-bloc img {
+    width: 260px;
+    border-radius: var(--radius-medium);
+    /* background-size: cover; */
+    object-fit: cover;
+    object-position: center;
+}
+
+.infos-bloc img {
     width: 260px;
     border-radius: var(--radius-medium);
     /* background-size: cover; */
