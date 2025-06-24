@@ -72,6 +72,18 @@ cs {color:var(--cs);}
 
 s1 {text-transform: uppercase; font-weight: 600; transition: 0.5s; letter-spacing: 1px; font-size: var(--mini-size);color: var(--stay-white);}
 
+t1 {
+    transition: 0.5s;
+    font-size: var(--maxi-size);
+    line-height:100%;
+    letter-spacing: 2px;
+    font-family: var(--font-title);
+    font-weight:600;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+     background: linear-gradient(0.75turn, var(--one), var(--two));
+     text-transform: uppercase;}
+
 t2 { 
     transition: 0.5s;
     font-size: var(--large-size);
