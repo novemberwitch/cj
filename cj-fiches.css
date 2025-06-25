@@ -6,7 +6,7 @@
 .post:has(.prez) .post_row {grid-template-columns: 1fr!important;}
 .post:has(.prez) div.post_row:last-of-type {grid-template-columns: 1fr!important;}
 
-.prez {width: fit-content;flex-wrap: wrap;width: 840px;padding: 20px;background: var(--transparent-three);border-radius: var(--radius-large);}
+.prez {width: fit-content;flex-wrap: wrap;width: 820px;padding: 20px;background: var(--transparent-three);border-radius: var(--radius-large);}
 .fiche-fond {width:100%;background: var(--transparent-four);border-radius: var(--radius-medium);padding: 10px;  text-align:justify;}
 .fiche-titre { display: grid;border-radius: var(--radius-medium);grid-template-columns: 170px 1fr;grid-template-rows: 1fr;margin-bottom: 20px;width: auto;overflow: hidden;gap:20px;}
 .fiche-simple-titre {width:100%;background: var(--transparent-four);border-radius: var(--radius-medium);padding: 10px;  text-align:justify;display:flex;}
