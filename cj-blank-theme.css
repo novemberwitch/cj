@@ -258,7 +258,7 @@
 }
 
 .post_message {
-    padding: 25px!important;
+    padding: 35px!important;
     background: var(--transparent-three);
     border-radius: var(--radius-large);
 }
