@@ -495,6 +495,10 @@ span.field_label:after {
     content: " ✦ ";
 }
 
+.profileTab_content firstTab span.field_label:after {
+    content: " ";
+}
+
 /* NE PAS SUPPRIMER - permet de cacher l\'onglet non sélectionné */
 .profileTab_content.hidden {display: none}
 
@@ -1143,6 +1147,7 @@ form[name="form_login"] .content {
   border: var(--border);
   border-radius: 5px;
 }
+
 
 
 
