@@ -492,7 +492,7 @@ padding: 10px;
 }
 
 span.field_label:after {
-    content: \" ✦ \";
+    content: " ✦ ";
 }
 
 /* NE PAS SUPPRIMER - permet de cacher l\'onglet non sélectionné */
@@ -1143,5 +1143,6 @@ form[name="form_login"] .content {
   border: var(--border);
   border-radius: 5px;
 }
+
 
 
