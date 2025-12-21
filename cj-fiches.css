@@ -1,5 +1,46 @@
 /*----- FICHES --------*/
 
+/*------ SHIPLAND ---------*/
+
+.ship-grid {display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+height: auto;
+gap:10px;}
+
+.ship-avatar-left {border-radius: var(--radius-medium);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+.ship-quote-left {border-radius: var(--radius-medium);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: 120px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+.ship-avatar-right {border-radius: var(--radius-medium);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+.ship-quote-right {border-radius: var(--radius-medium);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 120px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
 /*------ PRESENTATIONS ---------*/
 
 .post:has(.prez) .post_profile {display:none;}
@@ -432,3 +473,4 @@ height: 170px;
     padding-right: 50px;
     line-height: 1.2;
 }
+
