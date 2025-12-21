@@ -64,7 +64,7 @@
   width: 120px;
   display: block;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: var(--radius-medium);
   break-inside: avoid;
 }
 
@@ -521,6 +521,7 @@ height: 170px;
     padding-right: 50px;
     line-height: 1.2;
 }
+
 
 
 
