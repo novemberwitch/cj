@@ -492,7 +492,7 @@ padding: 10px;
 }
 
 span.field_label:after {
-    content: " ✦ ";
+    content: " ";
 }
 
 .profileTab_content firstTab span.field_label:after {
@@ -1147,6 +1147,7 @@ form[name="form_login"] .content {
   border: var(--border);
   border-radius: 5px;
 }
+
 
 
 
