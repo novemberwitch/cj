@@ -128,8 +128,28 @@ t33 {
      background: linear-gradient(0.75turn, var(--two), var(three));
      text-transform:uppercase;}
 
+t4 {
+    transition: 0.5s;
+    font-size: var(--maxi-size);
+    line-height:100%;
+    letter-spacing: 2px;
+    font-family: var(--font-title);
+    font-weight:600;
+     text-transform: uppercase;}
+
+t5 {
+    transition: 0.5s;
+    font-size: var(--maxi-size);
+    line-height:100%;
+    letter-spacing: 2px;
+    font-family: var(--font-title);
+    font-weight:600;
+     text-transform: uppercase;
+color:var(--black);}
+
 .post_profile hr, fr {
     border: 1px solid var(--greytwo);
     margin: 10px 0px 10px;
     background: none;
 }
+
